@@ -1,0 +1,40 @@
+@import url(../node_modules/@fortawesome/fontawesome-free/css/all.css);
+h1 {
+  color: blue !important; }
+
+* {
+  font-family: 'Work Sans';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  /* me permite deslizar cuando hago clic en los links del menu */
+  scroll-behavior: smooth; }
+
+#navbarNav {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-evenly; }
+
+.inicio {
+  background: linear-gradient(to top, rgba(30, 35, 38, 0.8), #1e2326), url(../img/fondo.jpg);
+  background-size: cover;
+  height: 100vw;
+  color: white;
+  display: flex;
+  align-items: center; }
+  .inicio .contenido-banner {
+    padding: 20px;
+    background-color: black;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px; }
+  .inicio img {
+    margin-top: 40px !important;
+    border: 10px solid rgba(180, 2, 2, 0.479);
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%; }
